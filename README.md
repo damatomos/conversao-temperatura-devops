@@ -5,3 +5,10 @@ O projeto conversão de temperatura é um projeto desenvolvido em NodeJS. O proj
 
 ### Observações do projeto
 A aplicação é exposta usando a porta 8080
+
+### Imagem docker
+Para criar um container da imagem criada use:
+
+```
+docker container run -d --rm -p 8080:8080 damatomos/conversao-temperatura
+```
